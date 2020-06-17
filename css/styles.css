@@ -1,0 +1,797 @@
+body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.menu {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: black;
+    top:0px;
+   
+}
+
+.contenedor {
+
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+li {
+    flex: auto;
+}
+
+
+header {
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+header nav ul {
+    display: flex;
+
+}
+
+header ul li {
+    list-style: none;
+   margin-right: 40px;
+    
+  
+}
+
+header ul li a  {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    
+   
+}
+
+header li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+
+}
+
+ .logo {
+    max-width: 250px;
+    padding: 15px 43px;
+    overflow: hidden;
+    
+  }
+
+  @media(max-width: 768px){
+
+    .logo{
+        display: block;
+        margin:auto;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    header nav ul {
+    
+        height: 230px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+  }
+ 
+
+
+#intro {
+    background:url('../img/final3.jpg') no-repeat;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+#intro h1  {
+    color: white;
+    font-size: 60px;
+    letter-spacing: 1px;
+    padding: 30vh 0 0 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 34px;
+    
+}
+
+#intro a {
+    color: white;
+    padding: 16px;
+    border-radius: 15px;
+    background: #E31D39;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#intro a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.9s;
+
+}
+
+
+ #vid{
+    
+    
+    text-align: center;
+    display: block;
+    background:url('../img/bnng.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+
+
+
+#vid h2{
+    color: #242424;
+    font-size: 58px;
+    margin-top: 0;
+    margin-bottom: 6px;
+    padding-top: 78px;
+}
+#vid h4{
+    margin-top:0;
+    font-family: 'Dosis', sans-serif;
+    color: #4c4d4c;
+    font-size: 38px;    
+    margin-bottom: 40px;
+}
+
+#vid a {
+    margin-top: 30px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    margin-right: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+#vid a:hover {
+    margin-top: 30px;
+    text-decoration: none;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    transition: 0.9s;
+    background-color: #03051A;
+    margin-right: 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+footer {
+    background: black;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.redes a {
+    margin-left: 10px;
+}
+
+.parrafo {
+    margin-left: 10px;
+}
+
+#aboutus {
+       height: auto;
+
+}
+    
+#aboutinfo h3, #contactinfo h3 {
+    
+    padding-top: 74px;
+    padding-left: 84px;
+    color: #171a20;
+    font-size: 38px;
+    margin-bottom: 18px;
+}
+
+#aboutinfo hr, #contactinfo hr {
+   width: 80%;
+   margin-left: 84px;
+   color: #ccc;
+}
+
+#aboutinfo h2 {
+    color: #D3253C;
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 84px;
+    padding-right: 20px;
+    width: 80%;
+    font-family: 'Dosis';
+    
+}
+
+#aboutinfo p {
+    color: #171a20;
+    line-height: 35px;
+    padding-left: 84px;
+    padding-right: 20px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    overflow-wrap: break-word;
+    width: 80%;
+    font-size: 18px;
+}
+
+.pfinal {
+    margin-bottom: 60px;
+}
+
+#contactinfo p,  #contactinfo h2 {
+    width: 80%;
+    padding-left: 84px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+#contactinfo h2, .formi {
+    text-align: center;
+}
+
+.formi{
+    margin-bottom: 30px;
+}
+
+ .dir  {
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+
+#foorm {
+    
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+    margin:auto;
+    height: 350px;
+    background-color:#ccc;
+    margin-bottom: 40px;
+}
+
+
+form label{
+	width:72px;
+	font-weight:bold;
+    display:inline-block;
+    align-items: center;
+    font-size: 14px;
+   
+}
+
+
+
+form input[type="text"],
+form input[type="email"] {
+    line-height: inherit;
+    width: 200px;
+    padding:4px 10px;
+    font-size: 14px;
+    margin:10px 0;
+    text-align: center;
+    color: #242424;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #e7ebda;
+       
+}
+
+form input[type="email"]{
+    margin-left: 2px;
+}
+
+#comments {
+    margin-top: 12px;
+}
+
+textarea {
+    padding: 10px 15px;
+    color: #242424;
+    background-color: #e7ebda;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    width: 270px;
+    height: 102px;
+    resize: none;
+    margin:8px 0;
+    display:block;
+}
+
+  form input[type="submit"] {
+    
+      background: #E31D39;
+      color: white;
+      box-shadow: none;
+      border-style: none;
+      text-transform: uppercase;
+      width: 100px;
+      padding: 12px;
+      border-radius: 20px;
+      text-align: center;
+      margin-bottom: 36px;
+      margin-top: 12px;
+      display:block;
+      margin-left: 100px;
+  }
+
+  #split {
+    background:url('../img/nmodels.jpg') no-repeat;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+
+#split h2  {
+    color: white;
+    font-size: 58px;
+    letter-spacing: 1px;
+    padding: 16vh 0 0 0;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 26px;
+    
+}
+
+#split a {
+    text-decoration: none;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#split a:hover {
+    text-decoration: none;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#specs {
+    background-color: black;
+   height: 100vh;
+}
+
+
+#specs img {
+    float: left;
+    padding-top: 150px;
+}
+
+
+#specs h2  {
+    margin-top: 0;
+    padding-top: 54px;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#specs hr {
+    color: white;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+  
+}
+
+#specs p{
+    
+    display: flex;
+    line-height: 30px;
+    color: white;
+    padding-top: 57px;
+    text-align: justify;
+    overflow-wrap: break-word;
+    margin-bottom: 40px;
+    font-size: 18px;
+    padding-left: 158px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#specs a {
+    
+    text-decoration: none;
+    padding-left: 66px;
+    padding-right: 66px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: transparent;
+    color: #ccc;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    margin-left: 178px;
+}
+
+
+#mtroix {
+    background: url('../img/tt.jpg') no-repeat;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+#mtroix img {
+    padding-top: 14vh;
+}
+
+#mtroix h2 {
+    font-family: 'Lexend Tera', sans-serif;
+
+    color: #a3a3a3;
+    font-size: 120px;
+    text-transform: uppercase;
+    padding-top:0px;
+    margin-top: 5px;
+    margin-bottom: 26px;
+    letter-spacing: 12px;
+}
+
+#m3 {
+    background: url('../img/fiiinaal.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#m3 h2 {
+    margin-top:0px;
+    font-size: 23px;
+    letter-spacing: 2px;
+    padding: 7vh 0 0 0;
+    text-align: center;
+    color: #4c4d4c;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+
+
+#est {
+    margin-top:0px;
+    padding: 53vh 0 0 0;  
+
+}
+
+#m3 h3 {
+    margin-top:0px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+#m3 h4 {
+    margin-top:10px;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #2b2b2b;
+    font-family: 'Lexend Tera', sans-serif;
+
+}
+
+#m3 hr {
+    
+        border-color: #DBDBDB;
+        width: 40%;
+        text-align: center;
+        margin-bottom: 20px;
+      
+
+}
+
+
+#m3specs{   
+    height: auto;
+
+}
+
+#m3specs h2 {
+    margin-top: 0;
+    color: #3b3b3b;
+    font-size: 40px;
+    text-align: center;
+    
+    letter-spacing: 1px;
+    font-family: 'Lexend Tera', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-shadow: 2px 2px #A3A3A3;
+}
+
+.topp {
+    margin-top: 38px;
+    color: white;
+}
+
+ .btm {
+    color: white;
+   
+    text-align: center;
+    
+}
+
+.imagen {
+    float: right;
+    padding-top: 32px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+   }
+
+
+.innfo {
+    display: flex;
+    line-height: 30px;
+    color:#3b3b3b;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    display: flex;
+    line-height: 34px;
+    color: #3b3b3b;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 17px;
+    padding-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mx {
+    background: url('../img/modellxx.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+ 
+}
+
+#mx h2 {
+    font-family: 'Lexend Tera', sans-serif;
+    text-shadow: 5px 5px #888;
+    color: #474747;
+    font-size: 97px;
+    text-transform: uppercase;
+    padding-top:14vh;
+    margin-top: 5px;
+    margin-bottom: 26px;
+    letter-spacing: 12px;
+}
+
+
+.seat {
+    margin-top: 40px;
+    padding-left: 0px;
+}
+
+#mx  h6 {
+    font-family: 'Staatliches', cursive;
+    font-size: 22px;
+    margin-left: 79px;
+    text-align: justify;
+    margin-top: -50px;
+    color: #3b3b3b;
+    letter-spacing: 5px;
+    
+}
+
+.safety {
+    margin-top:0px;
+}
+
+.autopilot {
+    margin-top: 0px;
+}
+
+#mxspecs {
+    height: 100vh;
+    background-color: white;
+}
+
+#mxspecs h2 {
+    margin-top: 0;
+    padding-top: 50px;
+    color: #3b3b3b;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+
+}
+
+.mx1 {
+    display: flex;
+    line-height: 30px;
+    color:#3b3b3b;
+    padding-top: 26px;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mx2 {
+    display: flex;
+    line-height: 39px;
+    color:#3b3b3b;
+    text-align: left;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.carx {
+ float: right;
+ padding-top: 32px;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
+}
+
+#cybertruckk {
+    height: 100vh;
+    text-align: center;
+    
+    background: url('../img/eeee.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+#cybertruckk marquee {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #ccc;
+    width:100%;
+    margin-top: 398px;
+    font-size: 18px;  
+    text-align: center;
+    position: static;
+    letter-spacing: 2px;
+
+    
+}
+
+#cybertruckk h2 {
+    color: #06011c;
+    padding-top: 80px;
+    text-shadow: 10px 8px #ccc, -10px 12px #c8dbfa, -8px -12px #cfc, 12px -5px #ffff99;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 100px;
+    margin-top: 0;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding-bottom:0;
+    margin-bottom: 10px;
+}
+
+#cybertruckk a {
+    color: #06011c;
+    padding-top: 80px;
+    border: 2px solid  #ccc;
+    background-color: #f0f0f0;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    border-radius: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#cyb {
+    
+    display: block;
+    height: auto;
+    background-color: #000000;
+    
+}
+
+#centlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logocb{
+   
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#cyb h3 {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    word-spacing: 6px;
+    font-size: 22px;
+    color: #ccc;
+    text-shadow: 1px 1px #888;
+    
+}
+
+#cyb p {
+    
+    line-height: 30px;
+    color: #dddddd;
+}
+
+#cyb h4 {
+    text-align: left;
+    font-family: 'Lexend Tera', sans-serif;
+    word-spacing: 6px;
+    font-size: 22px;
+    color: #dddddd;
+    text-shadow: 2px 2px #888;
+    
+}
+
+ .imgg {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
